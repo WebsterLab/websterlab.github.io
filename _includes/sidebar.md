@@ -3,18 +3,11 @@ title: Contact
 ---
 
 
-### Contact the Fraser Lab
+### Contact the Webster Lab
 
-James Fraser, Ph.D.
-Professor
-Department of Bioengineering and Therapeutic Sciences
-California Institute of Quantitative Biosciences (QB3)
+Tim Webster, Ph.D.
+Assistant Professor
+Department of Anthropology
+University of Utah
 
-email: jfraser (#!) fraserlab.com
-tel: 415 493 842 one
-fax: 415 514 016 nine
-
-Genentech Hall Room S472E (Office), S476 (Lab)
-UCSF Mail Code 2240
-600 16th Street
-San Francisco, CA 94158
+email: timothy.h.webster (#!) utah.edu
