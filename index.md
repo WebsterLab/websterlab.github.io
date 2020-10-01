@@ -4,11 +4,18 @@ layout: home
 group: home
 ---
 
-# Welcome to the Primate Evolution and Genomics Lab (PEGL)!
+
+
 {: .display-4}
+<h1></h1>
 <br>
-PEGL, also known as the Webster Lab, is part of the [Department of Anthropology](https://anthro.utah.edu) at the [University of Utah](https://www.utah.edu)
+<h1>Welcome to the Primate Evolution and Genomics Lab!</h1>
+<br>
+The Primate Evolution and Genomics Lab (PEGL) is part of the [Department of Anthropology](https://anthro.utah.edu) at the [University of Utah](https://www.utah.edu) and directed by Tim Webster.
 {: .welcomefont}
 
-Our lab uses genomics to understand primate behavior, ecology, and evolution.
+<br>
+Our lab uses genomic data and computational methods to understand primate behavior, ecology, and evolution.
+Our work involves the development of software and methods, as well as the analysis of large, population genomic
+datasets. Current projects focus on a variety of taxa across the order Primates, as well as other nonprimate model systems.
 {: .welcomefont}
