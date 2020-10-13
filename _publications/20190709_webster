@@ -1,0 +1,19 @@
+---
+title: "Identifying, understanding, and correcting
+technical artifacts on the sex chromosomes in next-generation sequencing data."
+citation: "**Webster TH**; Couse M; Grande BM; Karlins E; Phung TN; Richmond PA;
+Whitford W; Wilson Sayres MA. 2019. Identifying, understanding, and correcting
+technical artifacts on the sex chromosomes in next-generation sequencing data.
+*Gigascience* 8: giz074."
+citation_id: 'webster_2019'
+date: '2019-07-09'
+timestamp: "2019"
+image: '/static/img/pub/xyalign_logo.png'
+# pmcid:
+biorxiv: '346940'
+link: 'https://doi.org/10.1093/gigascience/giz074'
+code: 'https://doi.org/10.5281/zenodo.2635885'
+links:
+- name: XYalign Software Page
+  url: https://github.com/SexChrLab/XYalign
+---
