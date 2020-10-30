@@ -160,7 +160,7 @@ group: publications
 {% endfor %}
 
         <hr>
-        <div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2020">
+        <div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2019">
         <h3>2019<h3>
         </div>
 
@@ -236,7 +236,7 @@ group: publications
 {% endfor %}
 
         <hr>
-        <div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2020">
+        <div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2018">
         <h3>2018<h3>
         </div>
 
@@ -310,4 +310,683 @@ group: publications
     <br>
     {% endif %}
 {% endfor %}
+
+
+        <hr>
+        <div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2017">
+        <h3>2017<h3>
+        </div>
+
+{% for publication in site.publications reversed %}
+        {% if publication.timestamp =='2017' %}
+        <hr>
+        <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+        <div style="font-size: 120% !important; width: 100%">{{ publication.citation | markdownify }}</div>
+        </div>
+        <div class="row" style="padding-top: 20px; margin-top: - 20px;">
+            <div class="col-sm-6">
+                <img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+            </div>
+            <ul class="col-sm-6">
+                <strong>Access the paper</strong>
+                <!--PMID-->
+                {% if publication.pmid %}
+                <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+                {% endif %}
+
+                <!--PMCID - optional -->
+                {% if publication.pmcid %}
+                <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+                {% endif %}
+
+                <!-- Article Link -->
+                {% if publication.link %}
+                <li><a href="{{publication.link}}" alt = "article_link"> Article Link</a></li>
+                {% endif %}
+
+                <!--Biorxiv - optional -->
+                {% if publication.biorxiv %}
+                <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+                {% endif %}
+
+                <!--PeerJ - optional -->
+                {% if publication.peerj %}
+                <li>PeerJ Preprint: <a href="http://www.peerj.com/preprints/{{publication.peerj}}" alt = "peerj preprint link: {{publication.peerj}}"> {{publication.peerj}}</a></li>
+                {% endif %}
+
+                <!--Code - optional -->
+                {% if publication.code %}
+                <li>Code: <a href="{{publication.code}}" alt = "code: {{publication.code}}"> {{publication.code}}</a></li>
+                {% endif %}
+
+                <!-- Datasets - optional -->
+                {% if publication.data %}
+                <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
+                    {% if publication.data.size > 1 %}
+                    <ul>
+                        {% for dataset in publication.data %}
+                        <li><a href="{{dataset}}" alt = "data repository">{{dataset}}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
+                    {% endif %}
+                </li>
+                {% endif %}
+
+                <!--additional links - optional-->
+                {% if publication.links %}
+                <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                        {% for link in publication.links %}
+                        <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                        {% endfor %}
+                {% endif %}
+        </ul>
+        </div>
+        <br>
+        {% endif %}
+{% endfor %}
+
+
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2016">
+<h3>2016<h3>
+</div>
+
+{% for publication in site.publications reversed %}
+{% if publication.timestamp =='2016' %}
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+<div style="font-size: 120% !important; width: 100%">{{ publication.citation | markdownify }}</div>
+</div>
+<div class="row" style="padding-top: 20px; margin-top: - 20px;">
+    <div class="col-sm-6">
+        <img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+    </div>
+    <ul class="col-sm-6">
+        <strong>Access the paper</strong>
+        <!--PMID-->
+        {% if publication.pmid %}
+        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+        {% endif %}
+
+        <!--PMCID - optional -->
+        {% if publication.pmcid %}
+        <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+        {% endif %}
+
+        <!-- Article Link -->
+        {% if publication.link %}
+        <li><a href="{{publication.link}}" alt = "article_link"> Article Link</a></li>
+        {% endif %}
+
+        <!--Biorxiv - optional -->
+        {% if publication.biorxiv %}
+        <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+        {% endif %}
+
+        <!--PeerJ - optional -->
+        {% if publication.peerj %}
+        <li>PeerJ Preprint: <a href="http://www.peerj.com/preprints/{{publication.peerj}}" alt = "peerj preprint link: {{publication.peerj}}"> {{publication.peerj}}</a></li>
+        {% endif %}
+
+        <!--Code - optional -->
+        {% if publication.code %}
+        <li>Code: <a href="{{publication.code}}" alt = "code: {{publication.code}}"> {{publication.code}}</a></li>
+        {% endif %}
+
+        <!-- Datasets - optional -->
+        {% if publication.data %}
+        <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
+            {% if publication.data.size > 1 %}
+            <ul>
+                {% for dataset in publication.data %}
+                <li><a href="{{dataset}}" alt = "data repository">{{dataset}}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
+            {% endif %}
+        </li>
+        {% endif %}
+
+        <!--additional links - optional-->
+        {% if publication.links %}
+        <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                {% for link in publication.links %}
+                <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% endfor %}
+        {% endif %}
+</ul>
+</div>
+<br>
+{% endif %}
+{% endfor %}
+
+
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2015">
+<h3>2015<h3>
+</div>
+
+{% for publication in site.publications reversed %}
+{% if publication.timestamp =='2015' %}
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+<div style="font-size: 120% !important; width: 100%">{{ publication.citation | markdownify }}</div>
+</div>
+<div class="row" style="padding-top: 20px; margin-top: - 20px;">
+    <div class="col-sm-6">
+        <img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+    </div>
+    <ul class="col-sm-6">
+        <strong>Access the paper</strong>
+        <!--PMID-->
+        {% if publication.pmid %}
+        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+        {% endif %}
+
+        <!--PMCID - optional -->
+        {% if publication.pmcid %}
+        <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+        {% endif %}
+
+        <!-- Article Link -->
+        {% if publication.link %}
+        <li><a href="{{publication.link}}" alt = "article_link"> Article Link</a></li>
+        {% endif %}
+
+        <!--Biorxiv - optional -->
+        {% if publication.biorxiv %}
+        <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+        {% endif %}
+
+        <!--PeerJ - optional -->
+        {% if publication.peerj %}
+        <li>PeerJ Preprint: <a href="http://www.peerj.com/preprints/{{publication.peerj}}" alt = "peerj preprint link: {{publication.peerj}}"> {{publication.peerj}}</a></li>
+        {% endif %}
+
+        <!--Code - optional -->
+        {% if publication.code %}
+        <li>Code: <a href="{{publication.code}}" alt = "code: {{publication.code}}"> {{publication.code}}</a></li>
+        {% endif %}
+
+        <!-- Datasets - optional -->
+        {% if publication.data %}
+        <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
+            {% if publication.data.size > 1 %}
+            <ul>
+                {% for dataset in publication.data %}
+                <li><a href="{{dataset}}" alt = "data repository">{{dataset}}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
+            {% endif %}
+        </li>
+        {% endif %}
+
+        <!--additional links - optional-->
+        {% if publication.links %}
+        <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                {% for link in publication.links %}
+                <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% endfor %}
+        {% endif %}
+</ul>
+</div>
+<br>
+{% endif %}
+{% endfor %}
+
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2014">
+<h3>2014<h3>
+</div>
+
+{% for publication in site.publications reversed %}
+{% if publication.timestamp =='2014' %}
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+<div style="font-size: 120% !important; width: 100%">{{ publication.citation | markdownify }}</div>
+</div>
+<div class="row" style="padding-top: 20px; margin-top: - 20px;">
+    <div class="col-sm-6">
+        <img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+    </div>
+    <ul class="col-sm-6">
+        <strong>Access the paper</strong>
+        <!--PMID-->
+        {% if publication.pmid %}
+        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+        {% endif %}
+
+        <!--PMCID - optional -->
+        {% if publication.pmcid %}
+        <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+        {% endif %}
+
+        <!-- Article Link -->
+        {% if publication.link %}
+        <li><a href="{{publication.link}}" alt = "article_link"> Article Link</a></li>
+        {% endif %}
+
+        <!--Biorxiv - optional -->
+        {% if publication.biorxiv %}
+        <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+        {% endif %}
+
+        <!--PeerJ - optional -->
+        {% if publication.peerj %}
+        <li>PeerJ Preprint: <a href="http://www.peerj.com/preprints/{{publication.peerj}}" alt = "peerj preprint link: {{publication.peerj}}"> {{publication.peerj}}</a></li>
+        {% endif %}
+
+        <!--Code - optional -->
+        {% if publication.code %}
+        <li>Code: <a href="{{publication.code}}" alt = "code: {{publication.code}}"> {{publication.code}}</a></li>
+        {% endif %}
+
+        <!-- Datasets - optional -->
+        {% if publication.data %}
+        <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
+            {% if publication.data.size > 1 %}
+            <ul>
+                {% for dataset in publication.data %}
+                <li><a href="{{dataset}}" alt = "data repository">{{dataset}}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
+            {% endif %}
+        </li>
+        {% endif %}
+
+        <!--additional links - optional-->
+        {% if publication.links %}
+        <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                {% for link in publication.links %}
+                <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% endfor %}
+        {% endif %}
+</ul>
+</div>
+<br>
+{% endif %}
+{% endfor %}
+
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2013">
+<h3>2013<h3>
+</div>
+
+{% for publication in site.publications reversed %}
+{% if publication.timestamp =='2013' %}
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+<div style="font-size: 120% !important; width: 100%">{{ publication.citation | markdownify }}</div>
+</div>
+<div class="row" style="padding-top: 20px; margin-top: - 20px;">
+    <div class="col-sm-6">
+        <img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+    </div>
+    <ul class="col-sm-6">
+        <strong>Access the paper</strong>
+        <!--PMID-->
+        {% if publication.pmid %}
+        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+        {% endif %}
+
+        <!--PMCID - optional -->
+        {% if publication.pmcid %}
+        <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+        {% endif %}
+
+        <!-- Article Link -->
+        {% if publication.link %}
+        <li><a href="{{publication.link}}" alt = "article_link"> Article Link</a></li>
+        {% endif %}
+
+        <!--Biorxiv - optional -->
+        {% if publication.biorxiv %}
+        <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+        {% endif %}
+
+        <!--PeerJ - optional -->
+        {% if publication.peerj %}
+        <li>PeerJ Preprint: <a href="http://www.peerj.com/preprints/{{publication.peerj}}" alt = "peerj preprint link: {{publication.peerj}}"> {{publication.peerj}}</a></li>
+        {% endif %}
+
+        <!--Code - optional -->
+        {% if publication.code %}
+        <li>Code: <a href="{{publication.code}}" alt = "code: {{publication.code}}"> {{publication.code}}</a></li>
+        {% endif %}
+
+        <!-- Datasets - optional -->
+        {% if publication.data %}
+        <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
+            {% if publication.data.size > 1 %}
+            <ul>
+                {% for dataset in publication.data %}
+                <li><a href="{{dataset}}" alt = "data repository">{{dataset}}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
+            {% endif %}
+        </li>
+        {% endif %}
+
+        <!--additional links - optional-->
+        {% if publication.links %}
+        <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                {% for link in publication.links %}
+                <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% endfor %}
+        {% endif %}
+</ul>
+</div>
+<br>
+{% endif %}
+{% endfor %}
+
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2012">
+<h3>2012<h3>
+</div>
+
+{% for publication in site.publications reversed %}
+{% if publication.timestamp =='2012' %}
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+<div style="font-size: 120% !important; width: 100%">{{ publication.citation | markdownify }}</div>
+</div>
+<div class="row" style="padding-top: 20px; margin-top: - 20px;">
+    <div class="col-sm-6">
+        <img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+    </div>
+    <ul class="col-sm-6">
+        <strong>Access the paper</strong>
+        <!--PMID-->
+        {% if publication.pmid %}
+        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+        {% endif %}
+
+        <!--PMCID - optional -->
+        {% if publication.pmcid %}
+        <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+        {% endif %}
+
+        <!-- Article Link -->
+        {% if publication.link %}
+        <li><a href="{{publication.link}}" alt = "article_link"> Article Link</a></li>
+        {% endif %}
+
+        <!--Biorxiv - optional -->
+        {% if publication.biorxiv %}
+        <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+        {% endif %}
+
+        <!--PeerJ - optional -->
+        {% if publication.peerj %}
+        <li>PeerJ Preprint: <a href="http://www.peerj.com/preprints/{{publication.peerj}}" alt = "peerj preprint link: {{publication.peerj}}"> {{publication.peerj}}</a></li>
+        {% endif %}
+
+        <!--Code - optional -->
+        {% if publication.code %}
+        <li>Code: <a href="{{publication.code}}" alt = "code: {{publication.code}}"> {{publication.code}}</a></li>
+        {% endif %}
+
+        <!-- Datasets - optional -->
+        {% if publication.data %}
+        <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
+            {% if publication.data.size > 1 %}
+            <ul>
+                {% for dataset in publication.data %}
+                <li><a href="{{dataset}}" alt = "data repository">{{dataset}}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
+            {% endif %}
+        </li>
+        {% endif %}
+
+        <!--additional links - optional-->
+        {% if publication.links %}
+        <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                {% for link in publication.links %}
+                <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% endfor %}
+        {% endif %}
+</ul>
+</div>
+<br>
+{% endif %}
+{% endfor %}
+
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2010">
+<h3>2010<h3>
+</div>
+
+{% for publication in site.publications reversed %}
+{% if publication.timestamp =='2010' %}
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+<div style="font-size: 120% !important; width: 100%">{{ publication.citation | markdownify }}</div>
+</div>
+<div class="row" style="padding-top: 20px; margin-top: - 20px;">
+    <div class="col-sm-6">
+        <img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+    </div>
+    <ul class="col-sm-6">
+        <strong>Access the paper</strong>
+        <!--PMID-->
+        {% if publication.pmid %}
+        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+        {% endif %}
+
+        <!--PMCID - optional -->
+        {% if publication.pmcid %}
+        <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+        {% endif %}
+
+        <!-- Article Link -->
+        {% if publication.link %}
+        <li><a href="{{publication.link}}" alt = "article_link"> Article Link</a></li>
+        {% endif %}
+
+        <!--Biorxiv - optional -->
+        {% if publication.biorxiv %}
+        <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+        {% endif %}
+
+        <!--PeerJ - optional -->
+        {% if publication.peerj %}
+        <li>PeerJ Preprint: <a href="http://www.peerj.com/preprints/{{publication.peerj}}" alt = "peerj preprint link: {{publication.peerj}}"> {{publication.peerj}}</a></li>
+        {% endif %}
+
+        <!--Code - optional -->
+        {% if publication.code %}
+        <li>Code: <a href="{{publication.code}}" alt = "code: {{publication.code}}"> {{publication.code}}</a></li>
+        {% endif %}
+
+        <!-- Datasets - optional -->
+        {% if publication.data %}
+        <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
+            {% if publication.data.size > 1 %}
+            <ul>
+                {% for dataset in publication.data %}
+                <li><a href="{{dataset}}" alt = "data repository">{{dataset}}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
+            {% endif %}
+        </li>
+        {% endif %}
+
+        <!--additional links - optional-->
+        {% if publication.links %}
+        <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                {% for link in publication.links %}
+                <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% endfor %}
+        {% endif %}
+</ul>
+</div>
+<br>
+{% endif %}
+{% endfor %}
+
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2009">
+<h3>2009<h3>
+</div>
+
+{% for publication in site.publications reversed %}
+{% if publication.timestamp =='2009' %}
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+<div style="font-size: 120% !important; width: 100%">{{ publication.citation | markdownify }}</div>
+</div>
+<div class="row" style="padding-top: 20px; margin-top: - 20px;">
+    <div class="col-sm-6">
+        <img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+    </div>
+    <ul class="col-sm-6">
+        <strong>Access the paper</strong>
+        <!--PMID-->
+        {% if publication.pmid %}
+        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+        {% endif %}
+
+        <!--PMCID - optional -->
+        {% if publication.pmcid %}
+        <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+        {% endif %}
+
+        <!-- Article Link -->
+        {% if publication.link %}
+        <li><a href="{{publication.link}}" alt = "article_link"> Article Link</a></li>
+        {% endif %}
+
+        <!--Biorxiv - optional -->
+        {% if publication.biorxiv %}
+        <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+        {% endif %}
+
+        <!--PeerJ - optional -->
+        {% if publication.peerj %}
+        <li>PeerJ Preprint: <a href="http://www.peerj.com/preprints/{{publication.peerj}}" alt = "peerj preprint link: {{publication.peerj}}"> {{publication.peerj}}</a></li>
+        {% endif %}
+
+        <!--Code - optional -->
+        {% if publication.code %}
+        <li>Code: <a href="{{publication.code}}" alt = "code: {{publication.code}}"> {{publication.code}}</a></li>
+        {% endif %}
+
+        <!-- Datasets - optional -->
+        {% if publication.data %}
+        <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
+            {% if publication.data.size > 1 %}
+            <ul>
+                {% for dataset in publication.data %}
+                <li><a href="{{dataset}}" alt = "data repository">{{dataset}}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
+            {% endif %}
+        </li>
+        {% endif %}
+
+        <!--additional links - optional-->
+        {% if publication.links %}
+        <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                {% for link in publication.links %}
+                <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% endfor %}
+        {% endif %}
+</ul>
+</div>
+<br>
+{% endif %}
+{% endfor %}
+
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="year2008">
+<h3>2008<h3>
+</div>
+
+{% for publication in site.publications reversed %}
+{% if publication.timestamp =='2008' %}
+<hr>
+<div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
+<div style="font-size: 120% !important; width: 100%">{{ publication.citation | markdownify }}</div>
+</div>
+<div class="row" style="padding-top: 20px; margin-top: - 20px;">
+    <div class="col-sm-6">
+        <img class = "img-fluid" src = "{{publication.image}}" alt = "Key Figure" style="max-height: 200px;">
+    </div>
+    <ul class="col-sm-6">
+        <strong>Access the paper</strong>
+        <!--PMID-->
+        {% if publication.pmid %}
+        <li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+        {% endif %}
+
+        <!--PMCID - optional -->
+        {% if publication.pmcid %}
+        <li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+        {% endif %}
+
+        <!-- Article Link -->
+        {% if publication.link %}
+        <li><a href="{{publication.link}}" alt = "article_link"> Article Link</a></li>
+        {% endif %}
+
+        <!--Biorxiv - optional -->
+        {% if publication.biorxiv %}
+        <li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+        {% endif %}
+
+        <!--PeerJ - optional -->
+        {% if publication.peerj %}
+        <li>PeerJ Preprint: <a href="http://www.peerj.com/preprints/{{publication.peerj}}" alt = "peerj preprint link: {{publication.peerj}}"> {{publication.peerj}}</a></li>
+        {% endif %}
+
+        <!--Code - optional -->
+        {% if publication.code %}
+        <li>Code: <a href="{{publication.code}}" alt = "code: {{publication.code}}"> {{publication.code}}</a></li>
+        {% endif %}
+
+        <!-- Datasets - optional -->
+        {% if publication.data %}
+        <li>Online Dataset{% if publication.data.size > 1 %}s{% endif %}:
+            {% if publication.data.size > 1 %}
+            <ul>
+                {% for dataset in publication.data %}
+                <li><a href="{{dataset}}" alt = "data repository">{{dataset}}</a></li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <a href="http://dx.doi.org/{{publication.data}}" alt = "sbgrid data repository">doi:{{publication.data}}</a>
+            {% endif %}
+        </li>
+        {% endif %}
+
+        <!--additional links - optional-->
+        {% if publication.links %}
+        <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                {% for link in publication.links %}
+                <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                {% endfor %}
+        {% endif %}
+</ul>
+</div>
+<br>
+{% endif %}
+{% endfor %}
+
 </div>

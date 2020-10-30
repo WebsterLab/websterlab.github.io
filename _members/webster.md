@@ -12,6 +12,7 @@ scholar: vpKbTXgAAAAJ
 website: https://faculty.utah.edu/u6023206-TIM_WEBSTER/hm/index.hml
 twitter: TimWebster17
 # linkedin:
+# cv: 
 github: thw17
 orcid: 0000-0003-1174-2395
 description: "
