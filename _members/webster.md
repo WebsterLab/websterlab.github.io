@@ -12,7 +12,7 @@ scholar: vpKbTXgAAAAJ
 website: https://faculty.utah.edu/u6023206-TIM_WEBSTER/hm/index.hml
 twitter: TimWebster17
 # linkedin:
-# cv: 
+# cv:
 github: thw17
 orcid: 0000-0003-1174-2395
 description: "
@@ -28,7 +28,8 @@ the University of Cambridge working with Bill McGrew. He then spent the rest of
 
 
 Tim then moved to Connecticut to earn a Ph.D in [biological anthropology from Yale University](https://anthropology.yale.edu/).
-At Yale, Tim worked with David Watts and Brenda Bradley, initially studying the behavior
+At Yale, Tim worked with [David Watts](https://campuspress.yale.edu/ngogochimp/)
+and [Brenda Bradley](https://www.gwprimategenomicslab.org/), initially studying the behavior
 of chimpanzees at Ngogo, Uganda, before he ended up taking up genomics to begin
 exploring questions related to speciation in primates.
 
@@ -39,7 +40,7 @@ on a variety of genomic projects involving reptile evolution and sex chromosomes
 
 
 Starting in January, 2019, Tim became an Assistant Professor in the
-[Department of Anthropolgy at the University of Utah](http://anthro.utah.edu).
+[Department of Anthropology at the University of Utah](http://anthro.utah.edu).
 He also currently serves as the President of the
 [American Association of Anthropological Genetics](http://anthgen.org/)."
 ---
