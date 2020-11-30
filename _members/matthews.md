@@ -12,7 +12,7 @@ email: sally.matthews722 (at) gmail.com
 # website:
 # twitter:
 # linkedin:
-# github:
+github: Matthews-Sally
 # orcid:
 description: "Sally is currently finishing her undergraduate degree in Biological Anthropology with a Health Emphasis and an Integrated Human Biology minor. Sally has performed primate fieldwork in Costa Rica, worked in the Molecular Ecology and Evolutionary Genetics Lab with chimpanzee DNA through the Undergraduate Research Opportunities Program, and is now working on primate bioinformatics in the PEGL. Sally is interested in evolutionary genetics, the microbiome, and bioinformatics. She enjoys hiking, camping, canyoneering, and reading in her free time."
 ---

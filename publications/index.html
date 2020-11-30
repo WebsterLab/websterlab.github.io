@@ -72,12 +72,18 @@ group: publications
 
 
         			<!--additional links - optional-->
-                                {% if publication.links %}
-                                <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
-                                        {% for link in publication.links %}
-                                        <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
-                                        {% endfor %}
-                                {% endif %}
+                    {% if publication.links %}
+                    <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                            {% for link in publication.links %}
+                            <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                            {% endfor %}
+                    {% endif %}
+
+                    <!--additional links - optional -->
+
+                    {% if publication.altmetric %}
+                    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
+                    {% endif %}
         	</ul>
         </div>
         <br>
@@ -148,12 +154,18 @@ group: publications
 
 
         			<!--additional links - optional-->
-                                {% if publication.links %}
-                                <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
-                                        {% for link in publication.links %}
-                                        <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
-                                        {% endfor %}
-                                {% endif %}
+                    {% if publication.links %}
+                    <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                            {% for link in publication.links %}
+                            <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                            {% endfor %}
+                    {% endif %}
+
+                    <!--additional links - optional -->
+
+                    {% if publication.altmetric %}
+                    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
+                    {% endif %}
         	</ul>
         </div>
         <br>
@@ -224,12 +236,18 @@ group: publications
 
 
                     <!--additional links - optional-->
-                                {% if publication.links %}
-                                <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
-                                        {% for link in publication.links %}
-                                        <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
-                                        {% endfor %}
-                                {% endif %}
+                    {% if publication.links %}
+                    <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                            {% for link in publication.links %}
+                            <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                            {% endfor %}
+                    {% endif %}
+
+                    <!--additional links - optional -->
+
+                    {% if publication.altmetric %}
+                    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
+                    {% endif %}
             </ul>
         </div>
         <br>
@@ -300,12 +318,18 @@ group: publications
 
 
                 <!--additional links - optional-->
-                            {% if publication.links %}
-                            <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
-                                    {% for link in publication.links %}
-                                    <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
-                                    {% endfor %}
-                            {% endif %}
+                {% if publication.links %}
+                <strong>Additional Link{% if publication.links.size > 1 %}s{% endif %}</strong>:
+                        {% for link in publication.links %}
+                        <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
+                        {% endfor %}
+                {% endif %}
+
+                <!--additional links - optional -->
+
+                {% if publication.altmetric %}
+                <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
+                {% endif %}
         </ul>
     </div>
     <br>
@@ -381,6 +405,12 @@ group: publications
                         {% for link in publication.links %}
                         <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                         {% endfor %}
+                {% endif %}
+
+                <!--additional links - optional -->
+
+                {% if publication.altmetric %}
+                <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
                 {% endif %}
         </ul>
         </div>
@@ -458,6 +488,12 @@ group: publications
                 <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% endfor %}
         {% endif %}
+
+        <!--additional links - optional -->
+
+        {% if publication.altmetric %}
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
+        {% endif %}
 </ul>
 </div>
 <br>
@@ -534,6 +570,12 @@ group: publications
                 <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% endfor %}
         {% endif %}
+
+        <!--additional links - optional -->
+
+        {% if publication.altmetric %}
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
+        {% endif %}
 </ul>
 </div>
 <br>
@@ -608,6 +650,12 @@ group: publications
                 {% for link in publication.links %}
                 <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% endfor %}
+        {% endif %}
+
+        <!--additional links - optional -->
+
+        {% if publication.altmetric %}
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
         {% endif %}
 </ul>
 </div>
@@ -684,6 +732,12 @@ group: publications
                 <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% endfor %}
         {% endif %}
+
+        <!--additional links - optional -->
+
+        {% if publication.altmetric %}
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
+        {% endif %}
 </ul>
 </div>
 <br>
@@ -758,6 +812,13 @@ group: publications
                 {% for link in publication.links %}
                 <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% endfor %}
+        {% endif %}
+
+
+        <!--additional links - optional -->
+
+        {% if publication.altmetric %}
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
         {% endif %}
 </ul>
 </div>
@@ -834,6 +895,13 @@ group: publications
                 <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% endfor %}
         {% endif %}
+
+
+        <!--additional links - optional -->
+
+        {% if publication.altmetric %}
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
+        {% endif %}
 </ul>
 </div>
 <br>
@@ -909,6 +977,13 @@ group: publications
                 <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% endfor %}
         {% endif %}
+
+
+        <!--additional links - optional -->
+
+        {% if publication.altmetric %}
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
+        {% endif %}
 </ul>
 </div>
 <br>
@@ -983,6 +1058,12 @@ group: publications
                 {% for link in publication.links %}
                 <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
                 {% endfor %}
+        {% endif %}
+
+        <!--additional links - optional -->
+
+        {% if publication.altmetric %}
+        <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="{{publication.altmetric}}"></div>
         {% endif %}
 </ul>
 </div>

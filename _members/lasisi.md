@@ -2,7 +2,7 @@
 name: Tina Lasisi
 startdate: YYYY-MM-DD
 enddate: YYYY-MM-DD
-image: /static/img/members/lasisi.jpg
+image: /static/img/members/lasisi2.png
 # altimage:
 position: Ph.D. Student (Penn State University)
 #current:

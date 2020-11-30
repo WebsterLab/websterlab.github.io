@@ -9,6 +9,7 @@ citation_id: 'webster_2019'
 date: '2019-07-09'
 timestamp: "2019"
 image: '/static/img/pub/xyalign_logo.png'
+altmetric: '63383613'
 # pmcid:
 biorxiv: '346940'
 link: 'https://doi.org/10.1093/gigascience/giz074'
