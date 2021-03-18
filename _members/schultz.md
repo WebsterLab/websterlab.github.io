@@ -12,7 +12,7 @@ email: u1255414 (at) utah.edu
 # website:
 # twitter:
 # linkedin:
-# github:
+github: cschultz1117
 # orcid:
 description: "Carrie is an undergraduate student at the University of Utah, studying evolutionary anthropology and human biology. She is new to PEGL and is excited to learn more about primate and human genetics!"
 ---

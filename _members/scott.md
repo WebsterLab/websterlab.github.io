@@ -12,7 +12,7 @@ email: brooklynnscott00 (at) yahoo.com
 # website:
 # twitter:
 # linkedin:
-# github:
+github: brooklynnscott00
 # orcid:
 description: "Brooklynn is an undergraduate student majoring in evolutionary anthropology and an integrative human biology minor. In PEGL, Brooklynn is working on an honors thesis in macaque behavioral and evolutionary genetics."
 ---
