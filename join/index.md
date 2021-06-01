@@ -16,7 +16,3 @@ talk about interests, goals, opportunities, expectations, etc.
 Please direct all inquiries to Tim Webster at timothy.h.webster (at) utah.edu.
 
 ## Open Positions
-
-We are currently recruiting 1-2 PhD students through the
-[Department of Anthropology at the University of Utah](https://anthro.utah.edu/) to work on
-primate genomics (broadly defined). Please contact Tim for more information.
