@@ -1,6 +1,6 @@
 ---
 name: Ellison (Ellie) Goodrich
-startdate: YYYY-MM-DD
+startdate: 2020-04-06
 enddate: YYYY-MM-DD
 image: /static/img/members/goodrich.jpg
 # altimage:

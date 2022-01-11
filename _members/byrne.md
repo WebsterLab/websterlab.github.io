@@ -1,6 +1,6 @@
 ---
 name: Hazel Byrne, Ph.D.
-startdate: YYYY-MM-DD
+startdate: 2019-12-01
 enddate: YYYY-MM-DD
 image: /static/img/members/byrne.jpeg
 # altimage:

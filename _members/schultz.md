@@ -1,6 +1,6 @@
 ---
 name: Carrie Schultz
-startdate: YYYY-MM-DD
+startdate: 2020-09-17
 enddate: YYYY-MM-DD
 image: /static/img/members/schultz.jpeg
 # altimage:

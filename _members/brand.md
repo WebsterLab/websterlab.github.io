@@ -1,6 +1,6 @@
 ---
 name: Colin Brand
-startdate: YYYY-MM-DD
+startdate: 2020-08-03
 enddate: YYYY-MM-DD
 image: /static/img/members/brand.jpg
 # altimage:

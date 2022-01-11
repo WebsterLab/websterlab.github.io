@@ -1,6 +1,6 @@
 ---
 name: Tim Webster, Ph.D.
-startdate: YYYY-MM-DD
+startdate: 2019-01-01
 enddate: YYYY-MM-DD
 image: /static/img/members/webster_tortoise.jpeg
 # altimage: /static/img/members/webster_photo.jpg

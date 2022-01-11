@@ -1,11 +1,11 @@
 ---
 name: Elizabeth (Liz) Tapanes
-startdate: YYYY-MM-DD
+startdate: 2020-08-03
 enddate: YYYY-MM-DD
 image: /static/img/members/Tsin-Tapanes-2017.png
 # altimage:
 position: Ph.D. Student (George Washington University)
-# current:
+current: Postdoctoral Fellow (UC San Diego)
 pronouns: she/her/hers
 email: etapanes (at) gwmail.gwu.edu
 scholar: K2MsgzoAAAAJ

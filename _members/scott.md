@@ -1,7 +1,7 @@
 ---
 name: Brooklynn Scott
-startdate: YYYY-MM-DD
-enddate: YYYY-MM-DD
+startdate: 2020-03-22
+enddate: 2021-12-31
 image: /static/img/members/scott.jpeg
 # altimage:
 position: Undergraduate Student

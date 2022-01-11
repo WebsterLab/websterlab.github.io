@@ -1,6 +1,6 @@
 ---
 name: Kendal Chatard
-startdate: YYYY-MM-DD
+startdate: 2020-01-10
 enddate: YYYY-MM-DD
 image: /static/img/members/chatard.png
 # altimage:

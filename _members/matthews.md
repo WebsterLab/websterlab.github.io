@@ -1,6 +1,6 @@
 ---
 name: Sally Matthews
-startdate: YYYY-MM-DD
+startdate: 2020-03-28
 enddate: YYYY-MM-DD
 image: /static/img/members/matthews.jpg
 # altimage:

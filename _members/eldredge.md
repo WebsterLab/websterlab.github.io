@@ -1,6 +1,6 @@
 ---
 name: Aidyn Eldredge
-startdate: YYYY-MM-DD
+startdate: 2021-03-05
 enddate: YYYY-MM-DD
 image: /static/img/members/eldredge.jpg
 # altimage:

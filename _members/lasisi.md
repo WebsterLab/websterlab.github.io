@@ -1,11 +1,11 @@
 ---
 name: Tina Lasisi
-startdate: YYYY-MM-DD
-enddate: YYYY-MM-DD
+startdate: 2020-08-03
+enddate: 2021-12-31
 image: /static/img/members/lasisi2.png
 # altimage:
 position: Ph.D. Student (Penn State University)
-#current:
+current: Postdoctoral Fellow at Penn State University
 pronouns: she/her/hers
 email: tina.lasisi (at) gmail.com
 scholar: mRU9Fu4AAAAJ
