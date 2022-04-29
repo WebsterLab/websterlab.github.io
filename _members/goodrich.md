@@ -1,5 +1,6 @@
 ---
 name: Ellison (Ellie) Goodrich
+status: alumni
 startdate: 2020-04-06
 enddate: YYYY-MM-DD
 image: /static/img/members/goodrich.jpg

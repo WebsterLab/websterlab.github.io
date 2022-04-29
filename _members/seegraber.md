@@ -1,5 +1,6 @@
 ---
 name: Rebecca Seegraber
+status: current
 startdate: 2021-08-23
 enddate: YYYY-MM-DD
 image: /static/img/members/seegraber.jpg

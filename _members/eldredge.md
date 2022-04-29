@@ -1,5 +1,6 @@
 ---
 name: Aidyn Eldredge
+status: current
 startdate: 2021-03-05
 enddate: YYYY-MM-DD
 image: /static/img/members/eldredge.jpg

@@ -1,5 +1,6 @@
 ---
 name: Kendal Chatard
+status: current
 startdate: 2020-01-10
 enddate: YYYY-MM-DD
 image: /static/img/members/chatard.png

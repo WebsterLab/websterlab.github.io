@@ -1,5 +1,6 @@
 ---
 name: Andrew J. Zamora
+status: current
 startdate: 2020-08-03
 enddate: YYYY-MM-DD
 image: /static/img/members/zamora.jpg

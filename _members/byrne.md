@@ -1,5 +1,6 @@
 ---
 name: Hazel Byrne, Ph.D.
+status: current
 startdate: 2019-12-01
 enddate: YYYY-MM-DD
 image: /static/img/members/byrne.jpeg
