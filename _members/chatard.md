@@ -1,12 +1,12 @@
 ---
 name: Kendal Chatard
-status: current
+status: alumni
 startdate: 2020-01-10
 enddate: YYYY-MM-DD
 image: /static/img/members/chatard.png
 # altimage:
-position: Undergraduate Student
-#current:
+# position: Undergraduate Student
+# current:
 pronouns: she/her/hers
 email: u1200122 (at) utah.edu
 # scholar:

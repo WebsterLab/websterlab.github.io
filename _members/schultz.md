@@ -1,12 +1,12 @@
 ---
 name: Carrie Schultz
-status: current
+status: alumni
 startdate: 2020-09-17
 enddate: YYYY-MM-DD
 image: /static/img/members/schultz.jpeg
 # altimage:
-position: Undergraduate Student
-#current:
+# position: Undergraduate student
+current: Graduate student in the Department of Educational Psychology at the University of Utah
 pronouns: she/her/hers
 email: u1255414 (at) utah.edu
 # scholar:

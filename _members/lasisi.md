@@ -6,7 +6,7 @@ enddate: 2021-12-31
 image: /static/img/members/lasisi2.png
 # altimage:
 #position: Ph.D. Student (Penn State University)
-current: Postdoc at Yale University
+current: Postdoc at the University of Southern California
 pronouns: she/her/hers
 #email: tina.lasisi (at) gmail.com
 scholar: mRU9Fu4AAAAJ
