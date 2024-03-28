@@ -8,7 +8,7 @@ image: /static/img/members/chatard.png
 # position: Undergraduate Student
 # current:
 pronouns: she/her/hers
-email: u1200122 (at) utah.edu
+# email: u1200122 (at) utah.edu
 # scholar:
 # website:
 # twitter:

@@ -1,14 +1,14 @@
 ---
 name: Hazel Byrne, Ph.D.
-status: current
+status: alumni
 startdate: 2019-12-01
 enddate: YYYY-MM-DD
 image: /static/img/members/byrne.jpeg
 # altimage:
-position: Postdoctoral Research Associate
+#position: 
 #current:
 pronouns: she/her/hers
-email: hazel.byrne (at) anthro.utah.edu
+#email: hazel.byrne (at) anthro.utah.edu
 scholar: DjtwEzAAAAAJ
 # website:
 # twitter:

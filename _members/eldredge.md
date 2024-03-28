@@ -1,14 +1,14 @@
 ---
 name: Aidyn Eldredge
-status: current
+status: alumni
 startdate: 2021-03-05
 enddate: YYYY-MM-DD
 image: /static/img/members/eldredge.jpg
 # altimage:
-position: Undergraduate Student
+# position: Undergraduate Student
 #current:
 pronouns: she/her/hers
-email: u1073288 (at) utah.edu
+# email: u1073288 (at) utah.edu
 # scholar:
 # website:
 # twitter:

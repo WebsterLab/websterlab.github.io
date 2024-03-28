@@ -5,8 +5,8 @@ startdate: 2020-08-03
 enddate: 2021-12-31
 image: /static/img/members/lasisi2.png
 # altimage:
-#position: Ph.D. Student (Penn State University)
-current: Postdoc at the University of Southern California
+#position: 
+current: Assistant Professor in the Department of Anthropology at the University of Michigan
 pronouns: she/her/hers
 #email: tina.lasisi (at) gmail.com
 scholar: mRU9Fu4AAAAJ
