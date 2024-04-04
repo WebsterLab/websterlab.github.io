@@ -6,7 +6,7 @@ enddate: 2021-12-31
 image: /static/img/members/scott.jpeg
 # altimage:
 #position: Undergraduate Student
-current: Research Assistant at Cayo Santiago Field Station
+current: Graduate student in the School of Life Sciences at Arizona State University
 pronouns: she/her/hers
 #email: brooklynnscott00 (at) yahoo.com
 # scholar:
