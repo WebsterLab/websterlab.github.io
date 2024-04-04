@@ -44,10 +44,6 @@ human and nonhuman primate diversity.
                   <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
                   <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
                 {% endif %}
-                {% if member.UCSF %}
-                  <a href="http://www.ucsf.edu"><img class="inline-block mem-icon" src="/static/img/ucsf_logo_black.svg"></a>
-                  <a href= "http://profiles.ucsf.edu/{{member.UCSF}}"> Profile </a> <br>
-                {% endif %}
                 {% if member.scholar %}
                   <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
                   <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a> <br>
@@ -91,10 +87,6 @@ human and nonhuman primate diversity.
                 {% if member.linkedin %}
                   <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
                   <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
-                {% endif %}
-                {% if member.UCSF %}
-                  <a href="http://www.ucsf.edu"><img class="inline-block mem-icon" src="/static/img/ucsf_logo_black.svg"></a>
-                  <a href= "http://profiles.ucsf.edu/{{member.UCSF}}"> Profile </a> <br>
                 {% endif %}
                 {% if member.scholar %}
                   <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
@@ -145,10 +137,6 @@ human and nonhuman primate diversity.
                   <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/lin_logo.svg"></a>
                   <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
                 {% endif %}
-                {% if member.UCSF %}
-                  <a href="http://www.ucsf.edu"><img class="inline-block mem-icon" src="/static/img/ucsf_logo_black.svg"></a>
-                  <a href= "http://profiles.ucsf.edu/{{member.UCSF}}"> Profile </a> <br>
-                {% endif %}
                 {% if member.scholar %}
                   <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/gscholar_logo.svg"></a>
                   <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a> <br>
@@ -161,9 +149,6 @@ human and nonhuman primate diversity.
                   <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
                   <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
                 {% endif %}
-            </div>
-            <div class="col-sm-8">
-                <p class="text-justify">{{member.description | markdownify}}</p>
             </div>
         </div>
         {% endif %}
