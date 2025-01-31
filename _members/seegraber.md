@@ -7,7 +7,7 @@ image: /static/img/members/seegraber.jpg
 # altimage:
 position: Graduate Student
 #current:
-pronouns: she/her/hers
+# pronouns: she/her/hers
 email: rebecca.seegraber (at) anthro.utah.edu
 # scholar: DjtwEzAAAAAJ
 # website:

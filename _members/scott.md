@@ -7,7 +7,7 @@ image: /static/img/members/scott.jpeg
 # altimage:
 #position: Undergraduate Student
 current: Graduate student in the School of Life Sciences at Arizona State University
-pronouns: she/her/hers
+# pronouns: she/her/hers
 #email: brooklynnscott00 (at) yahoo.com
 # scholar:
 # website:

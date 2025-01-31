@@ -7,7 +7,7 @@ image: /static/img/members/goodrich.jpg
 # altimage:
 position: Post-baccalaureate researcher
 #current:
-pronouns: she/her/hers
+# pronouns: she/her/hers
 email: goodrichellie (at) outlook.com
 # scholar:
 # website:

@@ -7,7 +7,7 @@ image: /static/img/members/schultz.jpeg
 # altimage:
 # position: Undergraduate student
 current: Graduate student in the Department of Educational Psychology at the University of Utah
-pronouns: she/her/hers
+# pronouns: she/her/hers
 email: u1255414 (at) utah.edu
 # scholar:
 # website:

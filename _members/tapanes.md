@@ -7,7 +7,7 @@ image: /static/img/members/Tsin-Tapanes-2017.png
 # altimage:
 #position: 
 current: AAAS Science and Technology Policy Fellow in the US Environmental Protection Agency
-pronouns: she/her/hers
+# pronouns: she/her/hers
 #email: etapanes (at) gwmail.gwu.edu
 scholar: K2MsgzoAAAAJ
 website: https://www.elizabethtapanes.com/

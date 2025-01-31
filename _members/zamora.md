@@ -7,7 +7,7 @@ image: /static/img/members/zamora.jpg
 # altimage:
 position: Ph.D. Student (UMass Amherst)
 #current:
-pronouns: He/Him/His
+# pronouns: He/Him/His
 email: azamora@umass.edu
 scholar: QRf3c_QAAAAJ
 # website:

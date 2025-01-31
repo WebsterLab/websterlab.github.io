@@ -6,7 +6,7 @@ image: /static/img/members/webster_tortoise.jpeg
 # altimage: /static/img/members/webster_photo.jpg
 position: Principal Investigator
 #current:
-pronouns: he/him/his
+# pronouns: he/him/his
 email: timothy.h.webster (at) utah.edu
 scholar: vpKbTXgAAAAJ
 website: https://faculty.utah.edu/u6023206-TIM_WEBSTER/hm/index.hml

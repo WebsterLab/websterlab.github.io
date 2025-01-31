@@ -7,7 +7,7 @@ image: /static/img/members/brand.jpg
 # altimage:
 # position: Ph.D. Student (University of Oregon)
 current: Postdoc at UCSF
-pronouns: he/him/his
+# pronouns: he/him/his
 #email: cbrand2 (at) uoregon.edu
 scholar: CHUuF7YAAAAJ
 website: https://colinmbrand.weebly.com/

@@ -7,7 +7,7 @@ image: /static/img/members/lasisi2.png
 # altimage:
 #position: 
 current: Assistant Professor in the Department of Anthropology at the University of Michigan
-pronouns: she/her/hers
+# pronouns: she/her/hers
 #email: tina.lasisi (at) gmail.com
 scholar: mRU9Fu4AAAAJ
 website: https://tinalasisi.com/

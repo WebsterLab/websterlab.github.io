@@ -7,7 +7,7 @@ image: /static/img/members/matthews.jpg
 # altimage:
 #position: Undergraduate Student
 #current:
-pronouns: she/her/hers
+# pronouns: she/her/hers
 #email: sally.matthews722 (at) gmail.com
 # scholar:
 # website:

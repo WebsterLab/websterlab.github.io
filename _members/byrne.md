@@ -7,7 +7,7 @@ image: /static/img/members/byrne.jpeg
 # altimage:
 #position: 
 #current:
-pronouns: she/her/hers
+# pronouns: she/her/hers
 #email: hazel.byrne (at) anthro.utah.edu
 scholar: DjtwEzAAAAAJ
 # website:

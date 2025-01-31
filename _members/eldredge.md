@@ -7,7 +7,7 @@ image: /static/img/members/eldredge.jpg
 # altimage:
 # position: Undergraduate Student
 #current:
-pronouns: she/her/hers
+# pronouns: she/her/hers
 # email: u1073288 (at) utah.edu
 # scholar:
 # website:

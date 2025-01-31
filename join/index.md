@@ -5,8 +5,6 @@ group: join
 ---
 
 # Join PEGL
-Our lab welcomes applicants from any any race, gender identity, sexual orientation, religion, nationality, or disability status. We work hard to maintain a safe, inclusive, and supportive environment.
-
 While currently open PhD and postdoc positions are listed below, interested candidates
 are encouraged to inquire about possibilities even if there are no listed positions.
 
